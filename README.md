@@ -25,13 +25,14 @@ Este proyecto es una aplicación simple de gestión de tareas desarrollada con N
 3. POST http://localhost:3000/tasks  para crear una tarea: 
       {
   "title": "Nueva Tarea",
-  "description": "Descripción de la nueva tarea"
+  "description": "Descripción de la nueva tarea",
+  "status": Estado Designado. Ejemplos; "pending", "done", "in progress"
 }
 4. PATCH http://localhost:3000/tasks/id para actualizar una tarea:
       {
   "title": "Tarea Actualizada",
   "description": "Descripción actualizada",
-  "status": "Estado Designado, ejemplos; "Pendiente", "Realizada", "En Progreso""
+  "status": Estado Designado. Ejemplos; "pending", "done", "in progress"
 }
 5. DELETE http://localhost:3000/tasks/id para eliminar una tarea
 
