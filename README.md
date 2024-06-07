@@ -36,7 +36,7 @@ Este proyecto es una aplicación simple de gestión de tareas desarrollada con N
 }
 5. DELETE http://localhost:3000/tasks/id para eliminar una tarea
 
-6. Reemplazar ":id" en las rutas con algun id asignado a cualquier tarea ya creada.
+6. Reemplazar "id" en las rutas con algun id asignado a cualquier tarea ya creada.
 
 
 
